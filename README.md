@@ -17,9 +17,13 @@ pip install -r requirements.txt
 
 Push data to github repository
 
+```bash
 git init
 dvc init
 dvc addd data_given/winequality.csv
+```
 
+```bash
 git add .
 git commit -m "First commit"
+```
