@@ -20,7 +20,7 @@ Push data to github repository
 ```bash
 git init
 dvc init
-dvc addd data_given/winequality.csv
+dvc add data_given/winequality.csv
 ```
 
 ```bash
