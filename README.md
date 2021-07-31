@@ -20,3 +20,6 @@ Push data to github repository
 git init
 dvc init
 dvc addd data_given/winequality.csv
+
+git add .
+git commit -m "First commit"
