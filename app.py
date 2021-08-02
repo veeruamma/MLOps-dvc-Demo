@@ -48,13 +48,15 @@ def index():
     if request.method == "POST":
         try:
             if request.form:
-                data = dict(request.form).values()
-                data = [list(map(float, data))]
-                response = predict(data)
-                # response = prediction.form_response(dict_req)
+                # data = dict(request.form).values()
+                # data = [list(map(float, data))]
+                # response = predict(data)
+                dict_req = dict(request.form)
+                response = prediction.form_response(dict_req)
                 return render_template("index.html", response=response)
             elif request.json:
-                response = api_response(request)
+                # response = api_response(request)
+                response = prediction.api_response(request.json)
                 return jsonify(response)
 
         except Exception as e:
