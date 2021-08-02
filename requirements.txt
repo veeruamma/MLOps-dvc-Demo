@@ -6,5 +6,8 @@ dvc
 dvc[gdrive]
 sklearn
 pandas
+#to run the tests
 pytest
 tox
+#to check the code format
+flake8
