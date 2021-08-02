@@ -11,3 +11,6 @@ pytest
 tox
 #to check the code format
 flake8
+
+flask
+gunicorn
