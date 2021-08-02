@@ -1,3 +1,8 @@
+[Check the Wine Quality Prediction application](https://wine-quality-veerumma.herokuapp.com/)
+
+**Steps to be followed in development**
+
+
 Create new env
 
 ```bash
@@ -62,4 +67,3 @@ python setup.py sdist bdist wheel
 
 
 
-[Check the Wine Quality Prediction application](https://wine-quality-veerumma.herokuapp.com/)
