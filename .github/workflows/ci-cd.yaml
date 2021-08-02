@@ -1,4 +1,4 @@
-name: Python application
+name: mlops-dvc-simple application
 
 on:
   push:
