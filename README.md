@@ -59,3 +59,7 @@ python setup.py sdist bdist wheel
 ```bash
 
 ```
+
+
+
+[Check the Wine Quality Prediction application online here ] (https://wine-quality-veerumma.herokuapp.com/)
