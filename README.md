@@ -62,4 +62,4 @@ python setup.py sdist bdist wheel
 
 
 
-[Check the Wine Quality Prediction application online here ] (https://wine-quality-veerumma.herokuapp.com/)
+[Check the Wine Quality Prediction application](https://wine-quality-veerumma.herokuapp.com/)
