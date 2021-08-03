@@ -14,7 +14,7 @@ class NotInRange(Exception):
         super().__init__(self.message)
 
 class NotInCols(Exception):
-    def __init__(self, message="Not in cols"):
+    def __init__(self, message="Not in features"):
         self.message = message
         super().__init__(self.message)
 
@@ -53,7 +53,6 @@ def validate_input(dict_request):
 
     def _validate_values(col, val):
         schema = get_schema()
-
         if not (schema[col]["min"] <= float(dict_request[col]) <= schema[col]["max"]) :
             raise NotInRange
 
@@ -86,7 +85,6 @@ def api_response(dict_request):
     except NotInCols as e:
         response = {"the_exected_cols": get_schema().keys(), "response": str(e) }
         return response
-
 
     except Exception as e:
         response = {"response": str(e) }
