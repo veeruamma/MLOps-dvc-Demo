@@ -1,5 +1,8 @@
 [Check the Wine Quality Prediction application](https://wine-quality-veerumma.herokuapp.com/)
 
+![Visualization of the codebase](./diagram.svg)
+
+
 **Steps to be followed in development**
 
 
@@ -61,10 +64,8 @@ build your own package commands - builds the tar file
 python setup.py sdist bdist wheel
 ```
 
-```bash
 
-```
 
-![Visualization of the codebase](./diagram.svg)
+
 
 
