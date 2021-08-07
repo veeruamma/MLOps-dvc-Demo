@@ -65,5 +65,6 @@ python setup.py sdist bdist wheel
 
 ```
 
+![Visualization of the codebase](./diagram.svg)
 
 
